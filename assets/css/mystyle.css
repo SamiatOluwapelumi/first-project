@@ -16,8 +16,6 @@ body, html {
     padding-right: 40px;
     justify-content: center;
     align-items: center;
-
-    
 }
 
 .bluebuttton {
@@ -263,7 +261,6 @@ span {
 }
 .formborder {
     width: 900px;
-    /* height: 819px; */
     border-radius: 20px;
     border: 2px solid #3F3F3F;
     padding: 60px;
