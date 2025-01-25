@@ -30,21 +30,27 @@
         margin-bottom: 40px;
     }
     .email {
-        width: 300px;
+        width: 310px;
         height: 45px;
         border-radius: 10px ;
         padding: 10px;
+        align-items: center;
+        justify-content: center;
     }
     .pword {
-        width: 300px;
+        width: 310px;
         height: 45px;
         border-radius: 10px;
         padding: 10px;
+        align-items: center;
+        justify-content: center;
     }
     .logbutton {
-        width: 300px;
+        width: 310px;
         height: 45px;
         border-radius: 10px;
+        align-items: center;
+        justify-content: center;
         
     }
     .google {
@@ -75,10 +81,10 @@
         align-items: center;
     }
     .formborder {
-        width: 390px;
+        width: 100%;
         border-radius: 10px;
-        padding: 20px 30px;
-        height: 40vh;
+        padding: 20px ;
+        height: fit-content;
         
     }
     .RIdisplay {
@@ -88,7 +94,7 @@
         margin-right: 10px;
     }
     .foot {
-        width: 414px;
+        width: 420px;
         height: fit-content;
         background-color: #231f40;
         border: none;
