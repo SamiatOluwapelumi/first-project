@@ -81,10 +81,11 @@
         align-items: center;
     }
     .formborder {
-        width: 100%;
+        width: 96%;
         border-radius: 10px;
         padding: 20px ;
         height: fit-content;
+        
         
     }
     .RIdisplay {
