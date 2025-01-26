@@ -224,4 +224,20 @@
         height: fit-content;
         margin: auto;
     }
+    .green {
+        width: 300px;
+        height: 40px;
+    }
+    .formborderset {
+        width: 350px;
+        padding: 20px;
+        height: fit-content;
+        margin-bottom: 100px;
+        
+    }
+    .formreset {
+        width: 320px;
+        height: fit-content;
+        margin: auto;
+    }
 }
