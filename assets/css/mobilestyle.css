@@ -26,8 +26,20 @@
     .login {
         margin-top: 70px;
     }
+    .register{
+        margin-top: 70px;
+    }
     .alogin {
         margin-bottom: 40px;
+    }
+    .rlogin{
+        margin-bottom: 40px;
+    }
+    .policy{
+        margin:0;  
+        padding: 0;
+        font-size: 12px;
+        font-weight: 400;
     }
     .email {
         width: 310px;
@@ -49,9 +61,25 @@
         width: 310px;
         height: 45px;
         border-radius: 10px;
-        align-items: center;
-        justify-content: center;
         
+        
+    }
+    .registerbutton {
+        width: 310px;
+        height: 45px;
+        border-radius: 10px ;
+
+        
+    }
+    .pp {
+        width: 300px;
+        margin-top:-13px ;
+        padding: 0;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        
+    
     }
     .google {
         width: 160px;
@@ -84,9 +112,14 @@
         width: 94%;
         border-radius: 10px;
         padding: 20px ;
-        height: fit-content;
-        
-        
+        height:fit-content;
+    }
+    
+    .formregister {
+        width: 726px;
+        height: 300px;
+        border-radius: 20px ;
+        margin: auto;
     }
     .RIdisplay {
         display: flex;
