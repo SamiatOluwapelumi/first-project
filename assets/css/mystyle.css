@@ -267,6 +267,14 @@ input::placeholder {
     height: fit-content;
     
 }
+.formborderreg {
+    width: 900px;
+    border-radius: 20px;
+    border: 2px solid #3F3F3F;
+    padding: 60px;
+    height: fit-content;
+    
+}
 .everything {
     display: flex;
     justify-content: center;
