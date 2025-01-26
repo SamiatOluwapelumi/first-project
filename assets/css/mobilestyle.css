@@ -200,5 +200,28 @@
         margin-top: -1px;
         width: 414px;
     }
-    
+    .rederror{
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .warningicon{
+        width: 20px;
+    }
+    .sorry{
+        font-size: small;
+        font-weight: 200px;
+    }
+    .formborderforgot {
+        width: 350px;
+        padding: 20px;
+        height: fit-content;
+        margin-bottom: 100px;
+        
+    }
+    .formforget {
+        width: 320px;
+        height: fit-content;
+        margin: auto;
+    }
 }
