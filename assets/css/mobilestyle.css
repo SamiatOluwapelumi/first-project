@@ -140,7 +140,7 @@
         margin-right: 10px;
     }
     .foot {
-        width: 420px;
+        width: 100%;
         height: fit-content;
         background-color: #231f40;
         border: none;
