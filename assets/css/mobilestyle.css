@@ -118,7 +118,13 @@
         border-radius: 10px;
         padding: 20px ;
         height:fit-content;
-        border: 1px solid #3F3F3F;
+        
+    }
+    .remember{
+        font-size: 13px;
+    }
+    .forgetpword{
+        font-size: 13px;
     }
     
     .formregister {
