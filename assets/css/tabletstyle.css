@@ -6,132 +6,119 @@
 
     box-sizing: border-box;
 }
-@media screen and (max-width:640px) {
+@media screen and (min-width:640px) and (max-width:1024px) {
     
-    .end {
-        display: none;
-    }
-    .container {
-        padding-left: 20px;
-        padding-right: 20px;
+    
+    .bluebuttton {
+        width: 90px;
         
+    }
+    .whitebutton {
+        width: 90px;
+    }
+    .courses {  
+        font-size: 16px;  
     }
     .logo {
-        display: none;
+        width: 30px;
+        margin-right: 50px;
     }
-    
-    .courses {
-        display: none;
+    .learn {
+        width: 300px;
     }
     .login {
-        margin-top: 70px;
+        margin-top: 50px;
     }
     .register{
-        margin-top: 70px;
+        margin-top: 50px;
     }
     .alogin {
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
     .rlogin{
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
     .policy{
-        /* width: 10px; */
         margin:auto;  
-        padding: 0;
-        font-size: 10px;
-        font-weight: 400;
+        padding: 10px;
+        font-size: 15px;
     }
     .email {
-        width: 310px;
-        height: 45px;
-        border-radius: 10px ;
-        padding: 10px;
-        align-items: center;
-        justify-content: center;
+        width: 500px;
+        height: 60px;
+        border-radius: 15px ;
+        
     }
     .pword {
-        width: 310px;
-        height: 45px;
-        border-radius: 10px;
-        padding: 10px;
-        align-items: center;
-        justify-content: center;
+        width: 500px;
+        height: 60px;
+        border-radius: 15px ;
     }
     .logbutton {
-        width: 310px;
-        height: 45px;
-        border-radius: 10px;
-        
+        width: 500px;
+        height: 60px;
+        border-radius: 15px ;
         
     }
     .registerbutton {
-        width: 310px;
-        height: 45px;
-        border-radius: 10px ;
-
-        
+        width: 500px;
+        height: 60px;
+        border-radius: 15px ;
     }
     .pp {
-        width: 300px;
+        width: 500px;
         margin-top:-5px ;
-        padding: 0;
-        font-size: 12px;
-        font-weight: 400;
-        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
     }
     .google {
-        width: 160px;
+        width: 300px;
         height: 45px;
-        border-radius: 10px;
+        border-radius: 15px;
         margin-top: 10px;
     }
     .gp {
         height: 27px;
-        font-size: 10px;
+        font-size: 16px;
     }
     .gicon {
-        width: 20px;
-        height: 48px;    
+        width: 30px;
+        height: 45px;    
     }
-    .gfb {
-        display: flex;
-        gap: 20px;
-        justify-content: center;
-        
-    }
+    
     .formlogin {
-        width: 310px;
-        height: 310px;
+        width: 500px;
+        height: 350px;
         margin: auto;
         justify-content: center;
         align-items: center;
     }
     .formborder {
-        width: 94%;
-        border-radius: 10px;
-        padding: 20px ;
+        width: 600px;
+        border-radius: 15px;
+        padding: 40px ;
         height:fit-content;
     }
     .formborderreg{
-        width: 350px;
-        border-radius: 10px;
-        padding: 20px ;
+        width: 620px;
+        border-radius: 15px;
+        padding: 40px ;
         height:fit-content;
         
     }
     .remember{
-        font-size: 13px;
+        font-size: 16px;
     }
     .forgetpword{
-        font-size: 13px;
+        font-size: 16px;
     }
     
     .formregister {
-        width: 320px;
-        height: 340px;
+        width: 500px;
+        height: 400px;
         margin: auto;
-        
+        justify-content: center;
+        align-items: center;
     }
     .RIdisplay {
         display: flex;
@@ -151,15 +138,12 @@
     }
     .gridcontainer {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
         
         
         
     }
-    .rec {
-        display: none;
-    }
-    
     .grid1 {
     
         width: 100%;
@@ -173,13 +157,13 @@
     .grid3 {
     
         width: 100%;
-        margin-top: 100px;
+        margin-top: 50px;
         
     }
     .grid4 {
     
         width: 100%;
-        margin-top: 90px;
+        margin-top: 50px;
         
     }
     
@@ -197,47 +181,48 @@
         margin-bottom:-10px;
     }
     .copyrightb{
-        margin-top: -1px;
+        margin-top: -2px;
         width: 100%;
     }
     .rederror{
-        width: 250px;
-        height: 40px;
-        border-radius: 10px;
+        width: 400px;
+        height: 60px;
+        border-radius: 15px;
     }
     .warningicon{
-        width: 20px;
+        width: 40px;
     }
     .sorry{
-        font-size: small;
-        font-weight: 200px;
+        font-size: 14px;
+        font-weight: 400px;
     }
     .formborderforgot {
-        width: 350px;
-        padding: 20px;
+        width: 620px;
+        padding: 40px;
         height: fit-content;
         margin-bottom: 100px;
         
     }
     .formforget {
-        width: 320px;
-        height: fit-content;
+        width: 500px;
+        height: 200px;
         margin: auto;
+        
     }
     .green {
-        width: 300px;
-        height: 40px;
+        width: 400px;
+        height: 60px;
     }
     .formborderset {
-        width: 350px;
-        padding: 20px;
+        width: 620px;
+        padding: 40px;
         height: fit-content;
         margin-bottom: 100px;
         
     }
     .formreset {
-        width: 320px;
-        height: fit-content;
+        width: 500px;
+        height: 290px;
         margin: auto;
     }
 }
